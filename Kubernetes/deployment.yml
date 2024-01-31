@@ -15,7 +15,7 @@ spec:
         app: netflix-app
     spec:
       containers:
-      - name: netflix-app
-        image: baravinddockerhub/netflix1:latest
+      - name: netflix123-app
+        image: baravinddockerhub/netflix:latest
         ports:
         - containerPort: 80
